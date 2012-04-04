@@ -6,11 +6,11 @@ Requires at least: 2.7
 Tested up to: 3.3.1
 Stable tag: trunk
 
-A plugin for converting @user metions, #hashtags and URLs in a tweet into clickable links.
+A plugin for converting @user mentions, #hashtags and URLs in a tweet into clickable links.
 
 == Description ==
 
-In a recent project, I had a bunch of tweet content saved and needed a way to convert all URLs, hashtags, and user mentions into clickable links. I found that WordPress has a built-in function called [make_clickable()](http://codex.wordpress.org/Function_Reference/make_clickable), but it just works with plain URLs, so I took it an extra step to make_clickable_tweet(). It's basically a regular expression, but I figured someone else out there might need it.
+In a recent project, I had a bunch of tweet content saved and needed a way to convert all URLs, hashtags, and user mentions into clickable links. I found that WordPress has a built-in function called [make_clickable()](http://codex.wordpress.org/Function_Reference/make_clickable), but it just works with plain URLs, so I took it one more step to make_clickable_tweet(). It's basically a regular expression wrapped in a simple function, but I figured someone else out there might need it.
 
 == Installation ==
 
