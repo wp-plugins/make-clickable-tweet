@@ -20,11 +20,20 @@ Using the plugin is pretty dang simple, as the function only has one parameter: 
 
 Of course, that above function will simply return the tweet content, if you'd like to display it in your templates you might want to toss an echo in front there.
 
+If you want to be super-duper safe (and smart), you might want to wrap the whole thing
+
+`<?php
+if (function_exists('make_clickable_tweet'))
+{
+make_clickable_tweet($tweetcontent);
+}
+?>`
+
 == Frequently Asked Questions ==
 
 = Why did you make this? =
 
-I had a bunch of tweet data that I needed to render like a real tweet.
+I had a bunch of tweet data that I needed to render like a real tweets.
 
 == Screenshots ==
 
